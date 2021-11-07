@@ -1,28 +1,29 @@
 // No cambies los nombres de las funciones.
 
 function devolverPrimerElemento(array) {
+  return array[0];
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
 }
 
 
 function devolverUltimoElemento(array) {
-  // Devuelve el último elemento de un array
-  // Tu código:
+  var elem = array.length - 1;
+return array[elem];
 }
 
 
 function obtenerLargoDelArray(array) {
-  // Devuelve el largo de un array
-  // Tu código:
+ return array.length;
 }
 
 
 function incrementarPorUno(array) {
-  // "array" debe ser una matriz de enteros (int/integers)
-  // Aumenta cada entero por 1
-  // y devuelve el array
-  // Tu código:
+  var matriz = [];
+  for (i = 0; i<array.length; i++){
+    matriz[i] = array[i] + 1;
+  }
+  return matriz;
 }
 
 
