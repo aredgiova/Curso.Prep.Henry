@@ -1,9 +1,8 @@
-// No cambies los nombres de las funciones.
+
 
 function devolverPrimerElemento(array) {
   return array[0];
-  // Devuelve el primer elemento de un  array (pasado por parametro)
-  // Tu código:
+
 }
 
 
@@ -174,12 +173,6 @@ function continueStatement(numero) {
     }
   }
   return celda;
-  //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
-  //Guardar cada nuevo valor en un array.    
-  //Devolver el array
-  //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
-  //Pista: usá el statement 'continue'
-  // Tu código:
 }
 
 
