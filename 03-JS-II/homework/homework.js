@@ -159,9 +159,11 @@ function doWhile(numero) {
   num = num + 5;
   }
   while (i < 8);
+
   return num;
-  }
 }
+
+
 
 
 
