@@ -170,6 +170,7 @@ function continueStatement(numero) {
     else{
       resul=resul+2;
       celda.push(resul);
+      
     }
   }
   return celda;
