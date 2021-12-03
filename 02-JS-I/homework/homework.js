@@ -181,6 +181,7 @@ function esVocal(letra){
   }
   if (letra !== "a" || letra !== "e" || letra !== "i" || letra !== "o" || letra !== "u"){
     return ("Dato incorrecto");
+
 }
 
 
@@ -221,5 +222,5 @@ module.exports = {
   retornarPerimetro,
   areaDelTriangulo,
   deEuroAdolar,
-  esVocal,
+  esVocal 
 };
